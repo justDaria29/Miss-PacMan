@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1684426053">
+  <File Type="ROUTE-PWR" Name="pacman_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="pacman.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="pacman_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="pacman_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="pacman.msk"/>
+  <File Type="ROUTE-CLK" Name="pacman_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="pacman.vdi"/>
+  <File Type="BG-BIT" Name="pacman.bit"/>
+  <File Type="BG-DRC" Name="pacman.drc"/>
+  <File Type="BG-BGN" Name="pacman.bgn"/>
+  <File Type="BG-BIN" Name="pacman.bin"/>
+  <File Type="BITSTR-RBT" Name="pacman.rbt"/>
+  <File Type="BITSTR-NKY" Name="pacman.nky"/>
+  <File Type="BITSTR-BMM" Name="pacman_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="pacman.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="pacman_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="pacman.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="pacman_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="pacman.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="pacman_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="pacman.hwdef"/>
+  <File Type="PLACE-IO" Name="pacman_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="pacman_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="pacman_utilization_placed.pb"/>
+  <File Type="ROUTE-RQS" Name="pacman_routed.rqs"/>
+  <File Type="PLACE-CTRL" Name="pacman_control_sets_placed.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pacman_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-DRC" Name="pacman_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="pacman_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="pacman_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="pacman_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="pacman_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="pacman_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="pacman_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="pacman_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="pacman_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="pacman_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="pacman_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="pacman_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="pacman_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="pacman_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="pacman_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="pacman_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="pacman_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pacman_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="pacman_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pacman_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pacman_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-DRC-RPX" Name="pacman_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="pacman_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="pacman.pdi"/>
+  <File Type="RCFI_FILE" Name="pacman.rcfi"/>
+  <File Type="CFI_FILE" Name="pacman.cfi"/>
+  <File Type="RNPI_FILE" Name="pacman.rnpi"/>
+  <File Type="NPI_FILE" Name="pacman.npi"/>
+  <File Type="RBD_FILE" Name="pacman.rbd"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="pacman_postroute_physopted.rqs"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ssd.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pacman.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pacman"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/pacman.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
